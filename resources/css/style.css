@@ -1,0 +1,55 @@
+#title {
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+#banner {
+  background-image: url(pictures/pattern.jpeg);
+}
+
+.sub {
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+p {
+  font-family: Helvetica;
+}
+
+/*
+
+See how this code repeats 3 times for each h2?
+ font-family: Helvetica; 
+ font-size: 32px; 
+ font-weight: bold; 
+ color: white; 
+
+What happens if the client decides to change the font-size and the color for the h2s? All of a sudden you have to make 6 edits in your code, when in reality you are only changing 2 things. A better approach would be:
+
+*/
+
+h2{
+  font-size:32px;
+  font-weight:bold;
+  color: white;
+  font-family: Helvetica;
+}
+#brushes {
+  background-color: mediumspringgreen;
+}
+
+#frames {
+  background-color: lightcoral;
+}
+
+#paint {
+  background-color: skyblue;
+}
+
+.price {
+  font-weight: bold;
+  color: blue;
+}
